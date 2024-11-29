@@ -6,7 +6,7 @@ WORKDIR /app
 
 # 将package.json和pnpm-lock.yaml（如果使用pnpm）复制到工作目录中
 COPY package*.json ./
-COPY pnpm-lock.yaml ./ # 如果你的项目使用了pnpm
+COPY pnpm-lock.yaml ./
 
 # 安装pnpm（如果系统中没有预装）
 RUN npm install -g pnpm
