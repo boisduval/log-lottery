@@ -67,10 +67,10 @@ const onPlayEnd = () => {
 }
 
 const enterConfig = () => {
-    router.push('/log-lottery/config')
+    router.push('/config')
 }
 const enterHome = () => {
-    router.push('/log-lottery')
+    router.push('/')
 }
 
 onMounted(() => {

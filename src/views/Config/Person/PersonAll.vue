@@ -161,7 +161,7 @@ onMounted(() => {
             <button class="btn btn-error btn-sm" @click="delAllDataDialog.showModal()">全部删除</button>
             <div class="tooltip tooltip-bottom" data-tip="下载文件后，请在excel中填写数据，并保存为xlsx格式">
                 <a class="no-underline btn btn-secondary btn-sm" download="人口登记表.xlsx" target="_blank"
-                    href="/log-lottery/人口登记表.xlsx">下载模板</a>
+                    href="/人口登记表.xlsx">下载模板</a>
             </div>
             <div class="">
                 <label for="explore">

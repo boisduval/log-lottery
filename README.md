@@ -6,48 +6,48 @@
 
 # log-lottery 🚀🚀🚀🚀
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/LOG1997/log-lottery)
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/LOG1997)
 [![github](https://img.shields.io/badge/Author-log1997-blue.svg)](https://github.com/log1997)
 [![vue3](https://img.shields.io/badge/VUE-3.0-green.svg)](https://github.com/log1997)
 
-log-lottery是一个可配置可定制化的抽奖应用，炫酷3D球体，可用于年会抽奖等活动，支持奖品、人员、界面、图片音乐配置。
+log-lottery 是一个可配置可定制化的抽奖应用，炫酷 3D 球体，可用于年会抽奖等活动，支持奖品、人员、界面、图片音乐配置。
 
-> 因原域名到期，现将原域名 (<https://24years.top/log-lottery>)
-迁移到 (<https://1kw20.fun/log-lottery>) 。
-如果进入到新域名遇到图片无法访问的情况，请到【全局配置】-【界面配置】菜单中点击【重置所有数据】按钮进行更新
+> 因原域名到期，现将原域名 (<https://24years.top>)
+> 迁移到 (<https://1kw20.fun>) 。
+> 如果进入到新域名遇到图片无法访问的情况，请到【全局配置】-【界面配置】菜单中点击【重置所有数据】按钮进行更新
 
 ## 要求
 
-使用PC端最新版Chrome或Edge浏览器。
+使用 PC 端最新版 Chrome 或 Edge 浏览器。
 
 访问地址：
 
-<https://1kw20.fun/log-lottery>
+<https://1kw20.fun>
 
 or
 
-<https://log1997.github.io/log-lottery/>
+<https://log1997.github.io/>
 
 ## TODO
 
-- [x] 🕍 炫酷3D球体，年会抽奖必备，开箱即用
+- [x] 🕍 炫酷 3D 球体，年会抽奖必备，开箱即用
 - [x] 💾 本地持久化存储
 - [x] 🎁 奖品奖项配置
 - [x] 👱 抽奖名单设置管理
 - [x] 🎼 播放背景音乐
-- [x] 🖼️ excel表格导入人员名单、抽奖结果使用excel导出
+- [x] 🖼️ excel 表格导入人员名单、抽奖结果使用 excel 导出
 - [x] 🎈 可增加临时抽奖
 - [x] 🧨 国际化多语言
-- [ ] 添加docker构建部署和镜像
+- [ ] 添加 docker 构建部署和镜像
 - [ ] 更换背景图片
-...
-需要更多功能请留言
+      ...
+      需要更多功能请留言
 
 ## 详细介绍
 
 ### 配置参与人员
 
-于人员配置管理界面下载excel模板，按要求填好数据后导入即可。
+于人员配置管理界面下载 excel 模板，按要求填好数据后导入即可。
 
 ### 配置奖项
 
@@ -59,7 +59,7 @@ or
 
 ### 图片和音乐管理
 
-上传图片或音乐即可，数据使用indexdb在浏览器本地进行存储。
+上传图片或音乐即可，数据使用 indexdb 在浏览器本地进行存储。
 
 ## 预览
 

@@ -57,35 +57,36 @@ const skip = (path: string) => {
                     </ul>
                 </details>
                 <a v-else @click="skip(item.path)"
-                    :style="item.name == route.name ? 'background-color:rgba(12,12,12,0.2)' : ''">{{ item.meta!.title }}</a>
+                    :style="item.name == route.name ? 'background-color:rgba(12,12,12,0.2)' : ''">{{ item.meta!.title
+                    }}</a>
             </li>
         </ul>
         <router-view class="mt-5"></router-view>
     </div>
-<!--    <footer class="p-10 rounded footer footer-center bg-base-200 text-base-content">-->
-<!--        <nav class="grid grid-flow-col gap-4">-->
-<!--            <a class="cursor-pointer link link-hover text-inherit" target="_blank" href="https://1kw20.fun">行有不得，反求诸己</a>-->
-<!--        </nav>-->
-<!--        <nav>-->
-<!--            <a class="cursor-pointer link link-hover text-inherit" target="_blank" href="https://1kw20.fun">破山中贼易，破心中贼难</a>-->
-<!--        </nav>-->
-<!--        <nav>-->
-<!--            <div class="grid grid-flow-col gap-4">-->
-<!--                <a href="https://github.com/LOG1997/log-lottery" target="_blank" class="cursor-pointer text-inherit">-->
-<!--                    <svg-icon name="github"></svg-icon>-->
-<!--                </a>-->
-<!--                <a href="https://twitter.com/TaborSwift" target="_blank" class="cursor-pointer "><svg-icon name="twitter"></svg-icon></a>-->
-<!--                <a href="https://www.instagram.com/log.z1997/" target="_blank" class="cursor-pointer ">-->
-<!--                    <svg-icon name="instagram"></svg-icon>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--        </nav>-->
-<!--        <aside>-->
+    <!--    <footer class="p-10 rounded footer footer-center bg-base-200 text-base-content">-->
+    <!--        <nav class="grid grid-flow-col gap-4">-->
+    <!--            <a class="cursor-pointer link link-hover text-inherit" target="_blank" href="https://1kw20.fun">行有不得，反求诸己</a>-->
+    <!--        </nav>-->
+    <!--        <nav>-->
+    <!--            <a class="cursor-pointer link link-hover text-inherit" target="_blank" href="https://1kw20.fun">破山中贼易，破心中贼难</a>-->
+    <!--        </nav>-->
+    <!--        <nav>-->
+    <!--            <div class="grid grid-flow-col gap-4">-->
+    <!--                <a href="https://github.com/LOG1997" target="_blank" class="cursor-pointer text-inherit">-->
+    <!--                    <svg-icon name="github"></svg-icon>-->
+    <!--                </a>-->
+    <!--                <a href="https://twitter.com/TaborSwift" target="_blank" class="cursor-pointer "><svg-icon name="twitter"></svg-icon></a>-->
+    <!--                <a href="https://www.instagram.com/log.z1997/" target="_blank" class="cursor-pointer ">-->
+    <!--                    <svg-icon name="instagram"></svg-icon>-->
+    <!--                </a>-->
+    <!--            </div>-->
+    <!--        </nav>-->
+    <!--        <aside>-->
 
-<!--            <p class="p-0 m-0">蜀ICP备2021028666号</p>-->
-<!--            <p>Copyright © 2024 - All right reserved by Log1997</p>-->
-<!--        </aside>-->
-<!--    </footer>-->
+    <!--            <p class="p-0 m-0">蜀ICP备2021028666号</p>-->
+    <!--            <p>Copyright © 2024 - All right reserved by Log1997</p>-->
+    <!--        </aside>-->
+    <!--    </footer>-->
 </template>
 
 <style scoped></style>
